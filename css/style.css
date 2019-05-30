@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    /* makes sure the size of the boxes will never change */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    /*these three lines to make sure that it works on older browsers too */
+}
+
+* {
+    font-family: "Open Sans", "Libre Barcode 39 Text", "sans-serif";
+    font-weight: 100;
+}
+
+
+/* Header */
+
+.head-text {
+    text-align: right;
+    color: #555;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.ORANGE_SQUARE {
+  background-image: url("ORANGE SQUARE.png");
+  position: absolute;
+  left: 153px;
+  top: 237px;
+  width: 494px;
+  height: 493px;
+  z-index: 6;
+}
+
+.upper-head {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+/* Content */
+
+.main-background {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    height: 700px;
+}
+
+.main-text {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.main-text h1 {
+    font-size: 60px;
+    color: white;
+    margin: 50px 0 50px;
+}
+
+.main-text hr {
+    width: 50%;
+}
+
+.featured-work {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+    height: 60px;
+    color: #bbb;
+}
+
+.bands-together {
+    margin-bottom: 20px;
+}
+
+.arctic-monkeys {
+    margin: 0 12.5%;
+    /*margins left and right are 2.5% */
+}
+
+.band {
+    height: 400px;
+    color: #333;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.band a {
+    text-decoration: none;
+}
+
+.band a:visited {
+    color: #777;
+}
+
+.band h2 {
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    /* transform all letters to uppercase*/
+}
+
+.image {
+    width: 100%;
+}
+
+.footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    height: 140px;
+}
+
+.fa {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.fa:hover {
+    color: #31fea4;
+}
+
+.copyrights {
+    font-family: "Libre Barcode 39 Text", sans-serif;
+    font-size: 36px;
+}
+
+.modal-body img {
+    width: 70%;
+    margin: 0 0 20px 15%;
+}
+
+.modal-body p {
+    margin: 0 15%;
+}
+
+.grid {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* to center the webpage on big screens */
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* these previous two line to wrap the divs in one row*/
+}
+
+
+/* we split our webpage to 12 columns to make it responsive and easier to built and to work on mobile screens */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}

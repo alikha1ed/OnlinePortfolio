@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, intial-scale= 1.0">
+    <!-- viewport is the user's visible area of webpage
+    the width= device-width sets the page width to follow the screen width of the device
+    The initial-scale= 1.0 part sets the initial zoom level when the page is first loaded by the browser 
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Libre+Barcode+39+Text|IM+Fell+Great+Primer">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Ali Khaled - Frontend Developer</title>
+</head>
+
+<body>
+    <div class="grid">
+
+        <div class="row header">
+            <div class="col-6 logo"> <img src="images/logo.png" class="upper-head" alt="logo"> </div>
+
+            <div class="col-6 head-text">
+                <h1>ALI KHALED</h1>
+                <h3>FRONT-END NINJA</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 main-background">
+
+                <div class="main-text">
+                    <hr>
+                    <h1>I BUILD LANDING WEBPAGES.</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h3 class="featured-work">Featured Work</h3>
+            </div>
+        </div>
+
+        <div class="row bands-together">
+
+            <div class="col-3 band">
+
+                <img class="img-responsive image" alt="pink floyd" src="images/pinkfloyd.png" data-toggle="modal" data-target="#pf-project">
+                <h2>Pink Floyd</h2>
+                <a href="http://www.pinkfloyd.com" target="_blank">www.pinkfloyd.com</a>
+            </div>
+
+            <div class="col-3 arctic-monkeys band">
+
+                <img class="img-responsive image" src="images/arcticmonkeys.jpg" alt="arctic monkeys" data-toggle="modal" data-target="#am-project">
+                <h2>Arctic Monkeys</h2>
+                <a href="http://www.arcticmonkeys.com" target="_blank">www.arcticmonkeys.com</a>
+            </div>
+
+            <div class="col-3 band">
+
+                <img class="img-responsive image" src="images/fosterthepeople.jpg" alt="foster the people" data-toggle="modal" data-target="#ftp-project">
+                <h2>Foster The People</h2>
+                <a href="http://www.fosterthepeople.com" target="_blank">www.fosterthepeople.com</a>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 footer">
+
+                <a href="https://www.facebook.com/alikha1ed" target="_blank"><i class="fa fa-facebook fa-fw fa-2x" aria-hidden="true"></i></a>
+
+                <a href="https://twitter.com/TommyChe_" target="_blank"><i class="fa fa-twitter fa-fw fa-2x" aria-hidden="true"></i></a>
+
+                <a href="https://www.instagram.com/ali_kha1ed/" target="_blank"><i class="fa fa-instagram fa-fw  fa-2x " aria-hidden="true"></i></a>
+
+                <p class="copyrights">ALL COPYRIGHTS RESERVED</p>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Modals -->
+    <div class="modal fade" id="pf-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">A-B-O-U-T</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/pinkfloyd.png" alt="pink floyd">
+
+                    <p>Pink Floyd were an English rock band formed in London. They achieved international acclaim with their progressive and psychedelic music. Distinguished by their use of philosophical lyrics, sonic experimentation, extended compositions, and elaborate live shows, they are one of the most commercially successful and influential groups of popular music history.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="am-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">A-B-O-U-T</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/arcticmonkeys.jpg" alt="arctic monkeys">
+
+                    <p>Arctic Monkeys are an English rock band formed in 2002 in High Green, a suburb of Sheffield. The band consists of Alex Turner (lead vocals, rhythm/lead guitar), Matt Helders (drums, vocals), Jamie Cook (lead/rhythm guitar) and Nick O'Malley (bass, backing vocals). Former band member Andy Nicholson (bass guitar, backing vocals) left the band in 2006 shortly after their debut album was released.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ftp-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">A-B-O-U-T</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/fosterthepeople.jpg" alt="foster the people">
+
+                    <p>Foster the People is an American indie pop band formed in Los Angeles, California in 2009. It currently consists of lead vocalist Mark Foster, lead guitarist Sean Cimino, keyboardist Isom Innis, and drummer Mark Pontius.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
